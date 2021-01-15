@@ -2,13 +2,12 @@
 /* ------------  Settings  -------------- */
 /* -------------------------------------- */
 
-text = '495453204120524F424F5421';  // The message displayed
-text = 'IT\'S A ••• - •-• •- -•- ••- •-•!'
+text = 'IT\'S A ••• - •-• •- -•- ••- •-•!' // The message displayed
 chars = '•ABCDEF GHIJK\'LNOP-QRSTUVWXYZ!';  // All possible Charactrers
 scale = 30;  // Font size and overall scale
 breaks = 0.003;  // Speed loss per frame
 endSpeed = 0.05;  // Speed at which the letter stops
-firstLetter = 800;  // Number of frames untill the first letter stopps (60 frames per second)
+firstLetter = 600;  // Number of frames untill the first letter stopps (60 frames per second)
 delay = 200;  // Number of frames between letters stopping
 
 
