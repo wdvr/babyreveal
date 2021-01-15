@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /*You can use any kind of background here.*/
+    background-color: rgb(13, 13, 13);
+  }
+  
+  canvas {
+      display: block;
+      position: relative;
+      z-index: 1;
+      pointer-events: none;  
+  }
+  
+  #content {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    color: rgb(235, 233, 233);
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: .7rem;
+    }
+  
+  .buttonContainer {
+    display: inline-block;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 3rem;
+    background: transparent;
+    
+  }
+#startButton {
+    display: none;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;   
+}
+
+#genderButton {
+  display: none;
+  /* border: 0; */
+  background: none;
+  box-shadow: none;
+  border-radius: 20px;   
+  color: #eee;
+  font-family: serif;
+  font-size: 1.6rem;
+  /* font-weight: bold; */
+  letter-spacing: .2rem;
+  padding: 1rem;
+  background-color: rgb(22, 22,22);
+}
+
+
+.fa-spin{
+    color: #eee;
+    font-size: 15rem;
+
+}
