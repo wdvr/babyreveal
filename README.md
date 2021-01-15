@@ -13,6 +13,11 @@ We wanted to reveal the gender of our baby in a funny/puzzly way, while remainin
 This project is a fork from [this more complex baby reveal puzzle](https://github.com/evilbotnet/babyreveal), go and check there if you're looking for something more challenging or if your friends and family read hex-encoded ;)
 
 
+## Live demo
+https://thelittleone.rocks
+
+See spoiler below to go through the steps of the puzzle
+
 ## SPOILER
 
 Below is a list of steps to get to the gender. 
@@ -22,6 +27,10 @@ Below is a list of steps to get to the gender.
 3. After 5 times clicking the refresh button, a 'And now for real'-button appear.
 4. this redirects you to the gender.html page, where a wheel reveals text that. We configured it to display "It's a [X]" where X is a morse encoded word.
 5. The morse encoded word was 'strakur', which is (at least according to Google Translate) Icelandic for 'boy'.
+
+![Screenshot of main page](screen1.PNG)
+![Screenshot of hidden spinner page](screen2.PNG)
+
 
 
 ## How to run
